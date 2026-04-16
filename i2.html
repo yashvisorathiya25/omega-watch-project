@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Omega Content | Brand Story & Details</title>
+
+  <meta name="description" content="Read about Omega watches, Swiss heritage, craftsmanship, warranty, delivery details, and FAQs." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+/* ✅ SAME BACKGROUND */
+body{
+  background:#0c0f14;
+  color:#fff;
+  overflow-x:hidden;
+}
+
+a{text-decoration:none;color:inherit;}
+
+/* 🔥 PREMIUM NAVBAR DESIGN */
+
+header{
+  position:sticky;
+  top:0;
+  z-index:1000;
+
+  /* Glass + gradient effect */
+  background: linear-gradient(135deg, rgba(20,20,20,0.95), rgba(120,0,0,0.9));
+  backdrop-filter: blur(10px);
+
+  border-bottom:1px solid rgba(212,175,55,0.2);
+}
+
+/* Navbar container */
+.nav{
+  max-width:1200px;
+  margin:auto;
+  padding:16px 20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+/* Logo */
+.logo{
+  font-size:24px;
+  font-weight:700;
+  letter-spacing:1px;
+}
+.logo span{
+  color:#d4af37;
+}
+
+/* Menu */
+.menu{
+  display:flex;
+  gap:25px;
+}
+
+.menu a{
+  font-size:14px;
+  color:#ddd;
+  position:relative;
+  transition:0.3s;
+}
+
+/* Hover underline effect */
+.menu a::after{
+  content:"";
+  position:absolute;
+  bottom:-5px;
+  left:0;
+  width:0%;
+  height:2px;
+  background:#d4af37;
+  transition:0.3s;
+}
+
+.menu a:hover::after{
+  width:100%;
+}
+
+.menu a:hover{
+  color:#fff;
+}
+
+/* Button */
+.btn{
+  padding:10px 18px;
+  border-radius:20px;
+  background:linear-gradient(135deg,#d4af37,#a67c00);
+  color:#000;
+  font-weight:600;
+  transition:0.3s;
+}
+
+.btn:hover{
+  transform:scale(1.05);
+}
+
+.btn-gold{
+  background:linear-gradient(135deg,#d4af37,#a67c00);
+  color:#0b0d10;
+  border:none;
+  font-weight:600;
+}
+
+/* Banner */
+.banner{
+  max-width:1200px;
+  margin:auto;
+  padding:60px 20px 20px;
+  display:grid;
+  grid-template-columns:1.1fr 0.9fr;
+  gap:24px;
+  align-items:center;
+}
+
+.banner h1{
+  font-size:40px;
+  margin-bottom:10px;
+}
+.banner h1 span{color:#d4af37;}
+
+.banner p{
+  opacity:0.85;
+  line-height:1.8;
+  font-size:14px;
+}
+
+/* Sections */
+section{
+  max-width:1200px;
+  margin:auto;
+  padding:50px 20px;
+}
+
+.section-title h2{
+  font-size:26px;
+}
+
+.content-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+  margin-top:18px;
+}
+
+.box{
+  padding:20px;
+  border-radius:22px;
+  border:1px solid rgba(255,255,255,0.10);
+  background:rgba(255,255,255,0.03);
+  transition:0.3s;
+}
+
+.box:hover{
+  transform:translateY(-5px);
+  border-color:#d4af37;
+}
+
+.box h3{
+  color:#d4af37;
+  margin-bottom:8px;
+}
+
+.box p, .box li{
+  font-size:13px;
+  opacity:0.85;
+  line-height:1.8;
+}
+
+/* Footer */
+footer{
+  padding:30px 20px;
+  border-top:1px solid rgba(255,255,255,0.08);
+  background:#07080a;
+  text-align:center;
+  font-size:12px;
+  opacity:0.7;
+}
+
+/* Responsive */
+@media(max-width:1000px){
+  .banner{grid-template-columns:1fr;}
+  .content-grid{grid-template-columns:1fr;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">OM<span>EGA</span></div>
+
+    <div class="menu">
+      <a href="i1.html">Home</a>
+      <a href="i2.html">Content</a>
+      <a href="i3.html">Login/Register</a>
+      <a href="i4.html">Email</a>
+      <a href="i5.html">Video</a>
+      <a href="i6.html">Social</a>
+      <a href="i7.html">Blog</a>
+	  <a href="video-marketing.html">videomarketing</a>
+	  <a href="i10.html">Digitalmarketing</a>
+    </div>
+
+    <a class="btn btn-gold" href="i1.html#collection">Explore Collection</a>
+  </div>
+</header>
+
+<!-- Banner -->
+<div class="banner">
+  <div>
+    <h1>Omega: A Symbol of <span>Innovation</span></h1>
+    <p>
+      Omega is one of the most respected Swiss luxury watchmakers in the world.
+      Known for precision, durability, and timeless style.
+    </p>
+  </div>
+
+  <div>
+    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEBUSExIVFRUVFRUQFRUQFRUQFRUQFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGBAQGi0lHx0tLS0tLS0rLSstLS0tLS0tLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rLS0tLS0tLf/AABEIALcBEwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAADAAECBAUGB//EADwQAAIBAgQDBQYFBAIBBQEAAAECAAMRBBIhMQVBUQYTYXGBIjJCkaGxFFJyweEVM2LRI5LwJENTgvEW/8QAGAEBAQEBAQAAAAAAAAAAAAAAAQACAwT/xAAhEQEBAQEAAgIDAQEBAAAAAAAAARECEiExUQMTQWEicf/aAAwDAQACEQMRAD8A9ZtGkc8kDMNFFHtGtFGtFHjXkjxRpICSRtGKydorSQRWQZZYIkckkqvQuLGZuIwFtQNJuFINqcLzKZbHOFF6CDagh5TXxuAzajRvoZh16wptkf2T49Oo6zz9c3l256lE/ALINw4ciYRcUOohFrjrMNe1F+Hnk0iMDUHxTTzx+8imR3VYSBNYTZzCRcwTFbGVBuPpB1ce1vdmswEFWUdB8pacYzcWIGqH0hKPHV5giX1pKd1EjU4bTPwy9EBeM0/zWhF4mh2cQFXgKHa4lGr2ctqCZZE2hjV/MJB8QJgVODsDoxkTgKg+L6yz/S6Ba9xBga3mRTwVcahjE1auNx9IeK10NNvGTFpzX9UqjdIqfHCDqpj40OnNFOg+QimGvHl6GPLKMenMsgUmdSxrjfUeO/zl2jiw22/Qz0zqV5swUXjh4s8ZjNBK8UEb8olqdZaRY8QitIFHjRRR5B3tHJlbENJGq4npBrXJMruYqTazOppMhlDifDUrLlceRG6nqDNJGuIzJNJwmK4AaZ1bTkYBuGtyf6zvK1AMCCLiYeLwfdnwOx/Yzh3xnuO3Pe+q57uq67NeDfE4heV5utSkck5t6w04rV5pJDjTbFJrtR8IBqAvqBA6z24sPymGp8SQjW485YGFW/uiEqYKmR7vylkWq641L6MIf8YvUSnU4Wh2uJWfgo5NLIW1SxAMmKs5l+GVV91vrGaliAPelidDVIgcy7WmF39cb/aMuKrX936Q8avTac66QtMzF/qjDdJJOMqNwRLxpbbUh0ErNhEO6iUP62h5285Zo4+mfjEvaHHDqf5IpIY5PzD5xS0Y7J8CORgHwhH8TVEawvPV4x5dZ1KuRofnzltGvtCtRB5QX4W2qm0psRyscJGDke8PXlCoRNBEUo+o8ZNntI97JIkxs0HWriU/xNjLUvlpWrySVQYnEkpkRBIRkiQ2gYPhqltJaJlAtrDGvpKVYtC0rY2jmFraRUibyzvEONr49Uco4IINv5hRjaZ+KaPGKVLOCaRqWuGK65elwPaPoDF/RaVQHMhXbK1KzEAb51Av8r6cxy4We8ejLmqK4heTCRdQdiJLF9mwqlwwZACSykWAG5PSZv8ASrHRyIVRfVY1TTlM5sJUX3al/MwVY4geMPRapSMKRmT+Orrul/SOONvzpn5GWJpGkYKrhZWTjindSIVuL0/GWLQjT5SdJCJAcQpH4oZcTTPxiGHQa6A/CJVbCId1E0PZOzA+sTUhJaya3C6Z5WlRuDAahjN11jKg5w2pz54UPzR5unDiKW07HogTrHI2tHJkGeet5ErX0J36SIawkO8kSlxp6SR3qqSByOl/GVXexOU7fIyNWuMmpsc233ldqyjXc+Wl5mlbTGA6HQyua8zXc3PnCJV6wnX2fFYepBExRRGJd7aWKWL6yixj3mNxvGrmBkWWZ9OoRt8pdo1wZudazecK0Qh1pyrisWlMEkiw0JYkIG6aau3+K9DciVU9rFTEKiZ3YKo+JjYX6DqfKZb9oe8R+4TMQLKXYIGa4BC38L/Sc7xHj2Hq1daT4lxsDfKo6U6aaAet+sPh8e1hfA1FXa1qi2HoT9pi234dueJPlfVKlVFNjRYNdlqL74AvYNyUkj2rctrGHXGNT98Ff8lN0883IfqsT0j4bjIb2VP/ANK2t+gU7g+cDxeo1RCuHfuKgKkmoO8W4IY0yL3AI0J10OnWc8dd/wAFxeNxAcvak9PLlZD7FU21LZj7LchkOW1r31tKzJUqsDTAVNCASFA62AufTaAH4gqFr0lQ8mptmWoOoB1XyPhL+EuJqTb7Y6vj8JvwxxqFv+mxlVlINmBB8dPvNujXIlrvgwswBHQ6zf65/HH9l/rmgsTKOk2q3Dqbe6Sp8NR8jK/9JblUU+YK/wC5nwrU7jGFIH4RI18KhGqCatThdQbAH9JH72lVgUNnUj9QImLLGpWMeG0/y2gG4OhO7CbdRLnT6SxhuHVG2pn19n6mU3+G2OWfg1jpUIjjh9QDSpO0HAXO5UepJ+0d+z+nvr/1P+5rx6Z8uXAPRxAOjXkfxOJXledtU7PPyKn1I+4lWvwWoB7h9CD9jDOvo+UcoOK1/wD4/pFNtuHVb/23/wCp/wBRQ3/D6d09eAfETN/GA7H0kTUvPRrzrzYmSoY4ryB85QEkJAqjXN5AydpEiBDqDWDYwxWMV0MxY3KVOpyMKTKsklTkZSqwWRkjJKssJLJgRBZNUhi0XvyqFidBqTzI6DxJIHznNPQONudVVWtcGwIG1NBbQX3b99i9q8Qwp06S71Hb6HIm3Lc69Zu8GwBpqFzXRVCgW1zXuWJ6zXM8r7at8OdnzUOEcKVKeUUwmpBC2uRcgMT1I1l2nh1Rct+upte5JPS0niVK2INspvc7Zed/C2vpMvieVL1e9VeuZra9LC4bTYWvrvOnqOPu+xKvDVKkuQW19q1jlPLxHhMl6hpuNjkGcXIAekLMym/vG2o/ma1LGNVUZKL5TYM1YCmCDvlTNm+YHOVuL0gEVhbMjoCFA2OhCg8tZjqR046vxQMVje+fODoWsfNVP+4WiZj8AUmpWpWI7uoXF98rBVF7aXvTabS0iOU5z5b7xbptDqZUpgy5Qw7tsPU6CdY40QSYhqeEt7xv4CWUUDYWmsZVqdBj4ecOKAtY6+HKEEe0UBTw6L7qKP0gCSJ6QlorSQJUxskNaRtJAkRoYrIFZJC8aTyxRTkKiX1jpWI31kQYjOVbW6VQGHBmYNNpYpYjkZTpXlcitIK0JeLKNozCTjMJEFhBMNYcxKszYdKieo0l1KcElPSGRCOcYLTinCJS1EdH1sdPtGx+YUahQ2YU3Kk8mCmx+dopy3aQEVcO3JahS9tLrV1N+e4nV4asyCzAuxPwDS2g1J0GtzbfztOcZRWptTcAPc1F11u2tlG3Mm/hNXgld3ADtbKCjLbUtya/IafW3KH466/m59NCoC9wz5Qb3Wmdb7G77/LLKfD+A06TFxmdjs1U94wX8oY8pZwuOpVyyi7ZSVJIK3sbHL1F/wDy0vWsLXv52/adcjz+VnoCnoDyAmR2gANPKoADVEucpYWUlnLAcgFsfOa71V1B5aknQBdRcnppOb4ziwTYaKqMOavTp3vUqMv+YAAG+299MdV0/HzdVey2OQ94SovmI9gaEFncWv0zTpErA8pyfCayBFAQZqjlybm4uSzLbSxUECb1KoBznLnqOn5OfbUp5RyEuipMenW9ZYWpOs6ccaOaSBlBasfvI6MaF4ryiKkkKnjLVi5eKVO9MfvjHUsxpX78xu/MNWLMa0rd9GNfxlqxatGgPxHjFLVjjQ0kDAgyamctdcFvGMQMeZpidOqR5dDLlGuD/MoiPKWwWa04iJUo1yN9R9ZaRwZ03WMw4p3klpQlIw4F4qoIsMoiAkhEJrTBO14WphhlI2BBFuWokaJ1ljNHE8yqYtqWOqiqpZaQWmmQ2ZQwDZz1NstvXrNqlil94PYZc11BHs5bhWA1Vj1lbtTw+jia71EqqtSmO7Yg5DdL3u46aixB25SasqqoqXQABRUY56R2FxVX+3c9SpJ+GcPi+nr3Z7X8DxLJf2QdVuyFdWa3Q6n3bnyk6/HCgZxTY3VmHeOtNf8AjNiNATuf5mBxCkqVQppqwy5yFc02NzowyEA7Hcc94TG4WmuHD0qJd2BdUckKv66mtl0vYAk39RrzY/VPkHjnaW7ZT/6j2tKdND3JQgWZt7kH4mIW3Q7CqY81LICSgsWZjd61RRbMx/KLaCc3wzh9R3LO2d2PtMtxTQfkpLyGu+/1nW4DhmUDSHXsyzmDYWmAbga2t6dB0HlNKkJGjhpbp0Yzhx6709MmHWr5xKkllmsZ1MPCK0CBJrJDAx7wUcGIEikLxs0kneRJjFpEtJHLGQLmItIkyKWaKDvHknLC/T5SSvCgR+7nJ00laEUQa0oUAiSOFk1WMr9RLKKIyCoBZJRCinCLTmsZ09Gp1+cuI4lRhYTPNRg1wSI7izW7njh5kpjDzF/KP/Uk0BaxPJtJeS8WqKkL3+l+mpmYKsodocWFwzliQpyqzLe6gkam2oHjyhejzztYy8MvXJr4dnF2ZjTsRUU36HM2pBy2LeG81aWAVrthK9iPZalVJ0b8pO6nwa58JlYBDUy5caAx/tU6qhqVVNDmVhZmO4zIdLawuOo1CQtWk1KqQUpV1ZqlO9tLV0syrcXKtvtrMf8Asei276rNxvZ7D1A9Xvxh69MHOq2akuS5IUCx3ubi1yTbeS4a1XEUFR7IlgrFAc5UAaXJ0vzguJYesO7o16VPM5stWk4dXVQM2h9tTt1HjNeuFpUGYnKiIztbfKBsPOMms9XxnppcO4bTCgJYgaacvOaSYW08x4bxCopWoHZGYB7ICQFYXAKlgG0O7Fj+3ccC7TB2FOstiRpUUZQSOTJc2PiCRpy0vuWRx65rZFGTCS7ToqwurXB2I1El+G8ZtzUcsVpe/DCL8MJJSjS7+HEiaAhiVM3gZO0N3HjCLRF/DT7QwqwQmI0z0M0VUdPCIiOLWWVMiRNWRKjpLFrIMgxms1FTygXwiwxazrxS0cF4xQwuaXWHRJwFHitZSLNm85tYftA4AzKD5TDr411YSSCTCodokO4ImhR4xSb4h6x9M2VdNORFKOlZTsRCGOA6E9fnrCLWI3APlpB3gnrgfxJYLXrX2BlU6akTM4s+Kcf8D06Y6lc7fM6D5TnqmC4ouvepU85fP9Px/HZrik5X+RlWvSVyGym4NwdjOKfF8SQ3NIN5QqdqMSlu8wr2H5QZeFp8pHWLTqKbpmHmQR8rzO7S8WxVFadRaJZFLd5k1spAsdNQN9bWmbQ7eJe1RHX0l2p2kwdcLmrMjKbq6E03RvAj6g3B5iHhf7DO41cIe8oL3lFSrqHIpAPYN7VnpEa7/De56SvjMS1MAL3tag2YVEpjv8hWxBZTdx+kbW2nM5a1Fi2FxK4hL3yEqlQHn7Oitz2sYRe0ONq1M9LDk92AtVbe3mve5p+/oLagEbzPhY6zvmtjhirWxOZCWRAFUnNpcAtYHUa2FvCb3HOHGrhq1JRdmQFRtmKnNl9bW9Zz/Y3jNJ2fM9nZ2a7H3sxuCD9PQzucl9Rv9x0m+Zjl+S7XmhroapGUrfRFINxYsMnhbTSbHCsE1WoiqCLMGYnSyD3vLT9poNw8msz4k02R2saZVaeQC9mD2s2ym5PhvNKniaVNO6w6LrypWN/1MBYee8Lz70efrFbAYl0xOWmTlCaj4Tr7Nx1t951tDFg6HQ/SZXAuDlbu/vMbk/YDwE2GwqzfMrnaLGMqgMp01HQ/tDpUBmtBEyLGSMDUEglnA1JsOplduOUR8ROpF1Fxcbi/WY/G67Gp3YuFVWqvbfKqlvroPWYtGiXszEjXMArVEAuBplRgCNB71z1nPv8AJOW+eNdzQ4lTqeyrWJ5MMp9L7ywxPh95xlEmxV+TKFYcw9wNtmUgeYbwnRcBxZqIQ2pU5Ses1z15C840wOUZxJkQTKL7TTKJkC0YHTXxGvhIg9DeRTvFI5opJ4EKLAX1hqNfkbzXsD0PWQfBg62E4ef29fgojEHxjHEG2/0lsYODOD5feMsFlWsFj7W1I8jNjDcXO2c+RmEmAFhfeRbh5JurajkZehjrqWOzbt+0klYXnM0KVQfzJDFsp6wwY6lXPIQiMxnP0uIm1xeX8Njza5IEPaxpMxEe3O15TTG3Nza0tJih0lqwxwlJveRT5qICt2cwrjWinmBaWtDsZKmP8hGdDGHW7E4U+6CvkSICt2GT3kruCNrte3ledCxbl9YJw0f2UeEckOy+Io37mqg6+wt7WtbNvbw8TNbh/E+IULB6SVUG/dkq1uoB0v5WmhXQkcx5QQzjZr+cfNeDouGcXoVwVuUf8lQFCfK+/pNnC4EAg2E4B6rNoUB8TNngvH3RhTqajZb/AGzRnU/rPXH07WMTAYfGI+xseh0P8wxWdJdcsCcQLr/+iWSkG1ORCp17aN8/99IcJfWVKiSCFl90+h2mdxKnHKZSotZQDcGmynZlK2I+X2nNVsQU92jUboFNM/VmH1AncU8Qjey4sTybY+RlTE9nMO51Uj9Dso+QMz1zOmpbHHjEuWXOAp0KUVOdy+oDORppfloLnUztOznDzSpe377HM3hflDcO4PQo/wBumB47n5y6zTXPOC3TMYJpImQM0yiVHSQqCym3mPMGEkSZEPMOoikso6D5RQ1PDaPaHCtuWTzW/wBpoYfi1AghayHwbT7wp4Zh396il/8AEW+0rVuy2EPJl/Sf9zh/xft6v+59LlLE0yPfU/pYSQTmt/vMSt2MpjVazjpdb/aCXsziUv3WI9LssvHn+UeXX06Gq5Uai48rax6La63mBSwnE0GhzjoSrfeL+s42n/cw1xz9kj7R8Pqj9n3HStU03+UfuS2tx6icz/8A1o/9zDsPI2+8t0e1WHIsS6+a3l4dT+L9nLfGHAGo9RB92TqdvESph+N4dr/86jpm9n7y6mIUr7Lo3kwP0hlh2VYp0k6i/wAoV6YNrG3gNpSqA2v9pKhW0ub/AGhpwapSddVH1g6NV9dRccgbGN+IF7e0PIxjSBN83/YWih6WIqHbl1MVPGPzv6ayCUxe+lhyBkjSFtLjyN7wSymLAvc3vGTGKSdBbwMqU1BNgxv0IkquGufh2/TeOBZaoGvrpK5tyb5yD4Ii1vobgiRqUWAJykHryiG5wriNzkci4Psnr4ec6pazINfaX6ieXMzbZrHrtO67N8XNanke3epoSNMycmt9/wCZrljuOioV1caH05iScTJr0LHMpsfDSPQ4oRpUHqP3E35fbnn0t1FiSjDUKitqpBlgCOBWOGBFiLwJo1KfuHMPytv6GX7wbNLFoFHGhtD7LdG0+XWGMrV6YbQi8rqaibHOvRtx5GW4l8mNK9DFK3geh0MPLdR7wZkzIGINHitFAvKTjgNNZJKoYXjRTyY91HLXO/z1ku9ueWnhFFJkOuTcW+9oxr8iW8dbx4oxCsqe6bN+pbyJ4Hh6gu1NCfBcv2iimpWOvhUr9ksGb3Rl/Qx/eZ9TsRRv7NWoPkYopud9fbneYGeyGIX+1itOjZlgXwHEqfxq4HVlP3jxTXnf6PFVfjuMpkh0T6fsZYwvbcDSpQv1yt/uPFOvPHPX8Y66s/o6dq8Kx9pKia9Aw+k18JxDDvrTrMPBkb/UUUz1+OSHn8nVXaYIF1a58RHNYt8IJHpGinF2Br4gqdiLdLGQXibcj5gxRRSVTEhtwOsHhMW1CstZQCRuNsyHdT/5uBFFA49Kp1AyKw2ZQ48mAI+hlOuoOkUU3XCK/dlTcG3iDaXKHE3Gh9ofIxRTO58NfLRw2MV9r36GEcxRTpzdjnZgLGICKKICqUA2+/UaGDFV039peuzfzHihfXtqLFOqGFxJARRRl9Cp2jxRRD//2Q==" style="width:100%; border-radius:20px;">
+  </div>
+</div>
+
+<!-- Sections -->
+<section>
+  <div class="section-title"><h2>Brand Story</h2></div>
+  <div class="content-grid">
+    <div class="box">
+      <h3>Heritage</h3>
+      <p>Founded in 1848, Omega has built a legacy of excellence.</p>
+    </div>
+    <div class="box">
+      <h3>Innovation</h3>
+      <p>Advanced movements with high precision and durability.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title"><h2>Features</h2></div>
+  <div class="content-grid">
+    <div class="box">
+      <h3>Swiss Movement</h3>
+      <ul>
+        <li>High precision</li>
+        <li>Anti-magnetic</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>Materials</h3>
+      <ul>
+        <li>Sapphire glass</li>
+        <li>Luxury finish</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Omega Watches Store. All Rights Reserved.
+</footer>
+
+</body>
+</html>

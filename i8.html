@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Omega | Brand Videos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+/* RESET */
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ font-family:'Poppins',sans-serif;
+}
+
+/* BODY */
+body{
+ background:#0c0f14;
+ color:#fff;
+ min-height:100vh;
+ display:flex;
+ flex-direction:column;
+}
+
+/* NAVBAR */
+nav{
+ position:sticky;
+ top:0;
+ z-index:1000;
+ background:linear-gradient(135deg, rgba(20,20,20,0.95), rgba(120,0,0,0.9));
+ backdrop-filter:blur(10px);
+ border-bottom:1px solid rgba(212,175,55,0.2);
+}
+
+.navbar{
+ max-width:1200px;
+ margin:auto;
+ padding:16px 20px;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+}
+
+.logo{
+ font-size:22px;
+ font-weight:700;
+}
+.logo span{color:#d4af37;}
+
+.menu{
+ display:flex;
+ gap:18px;
+}
+.menu a{
+ font-size:14px;
+ color:#ccc;
+}
+.menu a:hover{
+ color:#fff;
+}
+
+/* BUTTON */
+.btn{
+ padding:10px 16px;
+ border-radius:20px;
+ background:linear-gradient(135deg,#d4af37,#a67c00);
+ color:#000;
+ border:none;
+}
+
+/* HEADER */
+header{
+ text-align:center;
+ padding:50px 20px;
+}
+header h1{
+ font-size:32px;
+}
+header span{color:#d4af37;}
+header p{
+ opacity:0.8;
+ margin-top:8px;
+}
+
+/* MAIN */
+.container{
+ flex:1;
+ max-width:1100px;
+ margin:auto;
+ padding:20px;
+}
+
+/* CARD */
+.card{
+ background:#161a20;
+ padding:25px;
+ border-radius:20px;
+ margin-bottom:25px;
+ text-align:center;
+ transition:0.3s;
+}
+
+.card:hover{
+ transform:translateY(-5px);
+}
+
+/* IMAGE */
+.card img{
+ width:100%;
+ max-height:350px;
+ object-fit:cover;
+ border-radius:15px;
+ margin-top:10px;
+}
+
+/* VIDEO */
+video{
+ width:100%;
+ border-radius:15px;
+ margin-top:10px;
+}
+
+/* FOOTER */
+footer{
+ background:#07080a;
+ padding:30px;
+ text-align:center;
+}
+
+.footer-content{
+ max-width:600px;
+ margin:auto;
+}
+
+.footer-content p{
+ opacity:0.8;
+ line-height:1.6;
+}
+
+.copyright{
+ margin-top:10px;
+ font-size:12px;
+ opacity:0.6;
+}
+
+/* RESPONSIVE */
+@media(max-width:800px){
+ .menu{display:none;}
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="navbar">
+    <div class="logo">OM<span>EGA</span></div>
+
+    <div class="menu">
+      <a href="i1.html">Home</a>
+      <a href="i2.html">Content</a>
+      <a href="i3.html">Login</a>
+      <a href="i4.html">Email</a>
+      <a href="i5.html">Video</a>
+      <a href="i6.html">Social</a>
+      <a href="i7.html">Blog</a>
+	  <a href="video-marketing.html">videomarketing</a>
+	  <a href="i10.html">Digitalmarketing</a>
+    </div>
+
+    <a class="btn" href="i1.html#collection">Shop</a>
+  </div>
+</nav>
+
+<!-- HEADER -->
+<header>
+ <h1>Omega <span>Brand Videos</span></h1>
+ <p>Explore luxury watch presentation & marketing visuals</p>
+</header>
+
+<!-- MAIN -->
+<div class="container">
+
+<!-- IMAGE -->
+<div class="card">
+<h2>Brand Ambassador</h2>
+<img src="34.webp" alt="Omega Promotion">
+</div>
+
+<!-- VIDEO -->
+<div class="card">
+<h2>Brand Presentation</h2>
+
+<video controls>
+ <source src="video1.mp4" type="video/mp4">
+</video>
+
+</div>
+
+<!-- VIDEO 2 -->
+<div class="card">
+<h2>Marketing Animation</h2>
+
+<video controls>
+ <source src="video2.mp4" type="video/mp4">
+</video>
+
+</div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-content">
+    <p>
+      Omega represents luxury, precision, and innovation.
+      Experience world-class Swiss craftsmanship through our visuals.
+    </p>
+  </div>
+
+  <div class="copyright">
+    © 2026 Omega Watches Store
+  </div>
+</footer>
+
+</body>
+</html>

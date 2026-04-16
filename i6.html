@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Omega Social</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+/* RESET */
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ font-family:'Poppins',sans-serif;
+}
+
+/* BODY FIX */
+body{
+ background:#0c0f14;
+ color:#fff;
+ min-height:100vh;
+ display:flex;
+ flex-direction:column;
+}
+
+/* NAVBAR (SAME) */
+nav{
+ position:sticky;
+ top:0;
+ z-index:1000;
+ background:linear-gradient(135deg, rgba(20,20,20,0.95), rgba(120,0,0,0.9));
+ backdrop-filter:blur(10px);
+ border-bottom:1px solid rgba(212,175,55,0.2);
+}
+
+.navbar{
+ max-width:1200px;
+ margin:auto;
+ padding:16px 20px;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+}
+
+.logo{
+ font-size:22px;
+ font-weight:700;
+}
+.logo span{color:#d4af37;}
+
+.menu{
+ display:flex;
+ gap:20px;
+}
+.menu a{
+ font-size:14px;
+ color:#ccc;
+}
+.menu a:hover{
+ color:#fff;
+}
+
+/* BUTTON */
+.btn{
+ padding:10px 16px;
+ border-radius:20px;
+ background:linear-gradient(135deg,#d4af37,#a67c00);
+ color:#000;
+ border:none;
+}
+
+/* MAIN */
+.main{
+ flex:1;
+ max-width:1200px;
+ margin:auto;
+ padding:40px 20px;
+}
+
+/* HERO */
+.hero{
+ display:grid;
+ grid-template-columns:1fr 1fr;
+ gap:30px;
+ align-items:center;
+ margin-bottom:40px;
+}
+
+/* PROFILE CARD */
+.profile-card{
+ background:#161a20;
+ padding:25px;
+ border-radius:20px;
+}
+
+.profile-top{
+ display:flex;
+ gap:15px;
+ align-items:center;
+}
+
+.dp{
+ width:80px;
+ height:80px;
+ border-radius:15px;
+ overflow:hidden;
+}
+.dp img{
+ width:100%;
+ height:100%;
+ object-fit:cover;
+}
+
+.profile-top h1{
+ font-size:20px;
+}
+
+.profile-top p{
+ font-size:13px;
+ opacity:0.8;
+}
+
+.badge{
+ margin-top:5px;
+ display:inline-block;
+ background:#d4af37;
+ color:#000;
+ padding:5px 10px;
+ border-radius:10px;
+ font-size:12px;
+}
+
+/* STATS */
+.stats{
+ display:grid;
+ grid-template-columns:repeat(3,1fr);
+ gap:10px;
+ margin-top:15px;
+}
+
+.stat{
+ background:#222;
+ padding:10px;
+ text-align:center;
+ border-radius:10px;
+}
+
+.stat h2{
+ color:#d4af37;
+}
+
+/* BUTTONS */
+.actions{
+ margin-top:15px;
+ display:flex;
+ gap:10px;
+ flex-wrap:wrap;
+}
+
+/* ICONS */
+.social-icons{
+ display:flex;
+ gap:10px;
+ margin-top:10px;
+ flex-wrap:wrap;
+}
+
+.icon{
+ background:#222;
+ padding:8px 12px;
+ border-radius:10px;
+}
+
+/* IMAGE */
+.hero-img img{
+ width:100%;
+ border-radius:20px;
+}
+
+/* POSTS */
+.section-title{
+ margin-bottom:20px;
+}
+
+.posts{
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+ gap:20px;
+}
+
+.post{
+ background:#161a20;
+ border-radius:15px;
+ overflow:hidden;
+}
+
+.post img{
+ width:100%;
+ height:180px;
+ object-fit:cover;
+}
+
+.post .content{
+ padding:15px;
+}
+
+.post h3{
+ color:#d4af37;
+ margin-bottom:5px;
+}
+
+.post p{
+ font-size:13px;
+ opacity:0.8;
+}
+
+.meta{
+ display:flex;
+ justify-content:space-between;
+ font-size:12px;
+ margin-top:8px;
+ opacity:0.7;
+}
+
+/* FOOTER */
+footer{
+ background:#07080a;
+ padding:30px;
+ text-align:center;
+}
+
+.footer-content{
+ max-width:600px;
+ margin:auto;
+}
+
+.footer-content p{
+ opacity:0.8;
+ line-height:1.6;
+}
+
+.copyright{
+ margin-top:10px;
+ font-size:12px;
+ opacity:0.6;
+}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+ .hero{
+  grid-template-columns:1fr;
+ }
+ .menu{
+  display:none;
+ }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="navbar">
+    <div class="logo">OM<span>EGA</span></div>
+
+    <div class="menu">
+       <a href="i1.html">Home</a>
+      <a href="i2.html">Content</a>
+      <a href="i3.html">Login/Register</a>
+      <a href="i4.html">Email</a>
+      <a href="i5.html">Video</a>
+      <a href="i6.html">Social</a>
+      <a href="i7.html">Blog</a>
+	  <a href="video-marketing.html">videomarketing</a>
+       <a href="i10.html">Digitalmarketing</a>
+    </div>
+
+    <a class="btn" href="i1.html#collection">Shop</a>
+  </div>
+</nav>
+
+<!-- MAIN -->
+<div class="main">
+
+<div class="hero">
+
+  <div class="profile-card">
+
+    <div class="profile-top">
+      <div class="dp">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm635FRdWYvynSdmZegLpIVWj_ppyJRl1QBQ&s">
+      </div>
+      <div>
+        <h1>Omega Store</h1>
+        <p>Luxury Swiss watches with premium design.</p>
+        <span class="badge">Official</span>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><h2>310</h2><span>Posts</span></div>
+      <div class="stat"><h2>152K</h2><span>Followers</span></div>
+      <div class="stat"><h2>2K</h2><span>Following</span></div>
+    </div>
+
+    <div class="actions">
+      <button class="btn">Follow</button>
+      <button class="btn">Message</button>
+    </div>
+
+    <div class="social-icons">
+      <div class="icon">Instagram</div>
+      <div class="icon">YouTube</div>
+      <div class="icon">Facebook</div>
+    </div>
+
+  </div>
+
+  <div class="hero-img">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROJ47CG9-CT2DRL5utIgmNoFAbeq47DlQnnQ&s">
+  </div>
+
+</div>
+
+<div class="section-title">
+  <h2>Latest Posts</h2>
+</div>
+
+<div class="posts">
+
+  <div class="post">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSINXlgkgYICCsAdBHmiE-fhzIbwhCEudVTCQ&s">
+    <div class="content">
+      <h3>Speedmaster</h3>
+      <p>Legendary Moonwatch collection.</p>
+      <div class="meta"><span>❤️ 32K</span><span>💬 1.8K</span></div>
+    </div>
+  </div>
+
+  <div class="post">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKtwrFOhNXGcDJVrvZyZ8p06ocAaOn9XbuQw&s">
+    <div class="content">
+      <h3>Seamaster</h3>
+      <p>Ocean-ready luxury design.</p>
+      <div class="meta"><span>❤️ 21K</span><span>💬 900</span></div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-content">
+    <p>
+      Omega represents luxury, innovation, and timeless craftsmanship.
+      Trusted worldwide for precision and elegance.
+    </p>
+  </div>
+
+  <div class="copyright">
+    © 2026 Omega Watches Store
+  </div>
+</footer>
+
+</body>
+</html>
